@@ -1,0 +1,43 @@
+Running the Application
+To run the application, simply execute DemoApplication.java.
+
+Please note:
+
+* I have not yet implemented the JWT token authentication as it is a new concept for me and I faced challenges in doing so within the given timeframe.
+* My focus has been on ensuring the application is easy to understand and use.
+
+
+
+
+
+
+Run Gradle -> Run application
+Java Version: jbr-17 17.0.8
+
+
+
+
+
+
+To test the APIs:
+POST
+http://localhost:8080/parkingLot/create
+{
+    "parkingLotId": "PL001",
+    "location": "Downtown",
+    "numberOfSlot": 10,
+    "costPerMinute": 0.25
+}
+
+POST
+http://localhost:8080/parkingLot/parkVehicle?location=Downtown
+{
+    "licensePlate": "ABC12342",
+    "type": "Car",
+    "ownerName": "John Doe"
+}
+
+after that, you can check other controllers for the other features that you mention.
+
+
+Thank you, I hope this meets your expectations.
