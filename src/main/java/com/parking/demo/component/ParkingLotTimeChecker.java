@@ -1,7 +1,6 @@
 package com.parking.demo.component;
 
 import com.parking.demo.entity.Lot;
-import com.parking.demo.repository.LotRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
