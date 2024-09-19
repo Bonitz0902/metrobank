@@ -1,4 +1,4 @@
-package com.parking.demo;
+package com.metrobank.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

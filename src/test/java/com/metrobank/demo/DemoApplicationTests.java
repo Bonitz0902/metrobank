@@ -1,4 +1,4 @@
-package com.parking.demo;
+package com.metrobank.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
